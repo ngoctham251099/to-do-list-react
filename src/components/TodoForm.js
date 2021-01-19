@@ -12,7 +12,7 @@ function TodoForm(props){
 
     props.onSubmit({
       id: Math.random() * 1000,
-      content: input
+      content: input,
     });
 
     setInput('');

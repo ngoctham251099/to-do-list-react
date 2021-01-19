@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { RiCloseCircleLine } from "react-icons/ri";
 function Todo({todos, removeTodo, completeTodo}) {
   return todos.map((todo, index) =>(
